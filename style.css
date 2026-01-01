@@ -1,59 +1,57 @@
-/* =======================
-Style body (tout paj la)
-======================= */
 body {
-background-color: #000000; /* background nwa */
-font-family: 'Roboto', Arial, sans-serif; /* font site la */
-text-align: center; /* santre tout tèks yo */
-padding-top: 50px; /* espas anlè */
-margin: 0; /* retire default margin browser */
-color: #ffffff; /* tèks an blan pou kontaste ak nwa background */
+background-color: #000000;
+color: white;
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 30px;
+margin: 0;
 }
 
-/* =======================
-Tit (h1)
-======================= */
 h1 {
-color: #1a73e8; /* tit ble */
-font-size: 36px; /* gwosè tit */
-margin-bottom: 20px; /* espas anba tit la */
+color: #00bfff;
+margin-bottom: 10px;
 }
 
-/* =======================
-Paragraf (p)
-======================= */
 p {
-color: #ffffff; /* tèks blan */
-font-size: 20px; /* gwosè tèks */
-margin-bottom: 20px; /* espas anba paragraf */
+margin-bottom: 20px;
 }
 
-/* =======================
-Bouton WhatsApp
-======================= */
-.whatsapp-button {
-display: inline-block;
-background-color: #25D366; /* koulè vèt WhatsApp */
-color: white; /* koulè tèks bouton */
-padding: 10px 20px; /* espas andedan bouton */
-text-decoration: none; /* retire soulinye */
-border-radius: 5px; /* kwen awondi */
-font-weight: bold; /* tèks fè nwa */
+.box {
+background-color: #111111;
+padding: 15px;
+margin: 15px auto;
+width: 90%;
+max-width: 400px;
+border-radius: 8px;
+}
+
+input, select {
+width: 90%;
+padding: 8px;
+margin-top: 8px;
+border-radius: 4px;
+border: none;
+}
+
+ul {
+text-align: left;
+}
+
+.paiement {
+border: 2px solid #25D366;
+}
+
+button {
+background-color: #25D366;
+color: white;
+padding: 12px 25px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
 margin-top: 20px;
 }
 
-.whatsapp-button:hover {
-background-color: #1ebe57; /* chanje koulè lè souri sou li */
-}
-
-/* =======================
-Style pou imaj
-======================= */
-img {
-display: block; /* imaj pran liy antye */
-margin: 20px auto; /* santre imaj la */
-max-width: 80%; /* imaj pa depase 80% nan ekran */
-height: auto; /* kenbe pwopòsyon imaj la */
-border-radius: 10px; /* kwen imaj awondi */
-box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* ajoute lonbraj pou imaj */
+button:hover {
+background-color: #1ebe57;
 }
