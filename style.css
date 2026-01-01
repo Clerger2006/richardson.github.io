@@ -33,3 +33,12 @@ margin-top: 20px;
 .whatsapp-button:hover {
 background-color: #1ebe57;
 }
+/* Style pou imaj nan site la */
+img {
+display: block; /* fè imaj la pran liy antye */
+margin: 20px auto; /* santre imaj la epi mete espas anlè/ anba */
+max-width: 80%; /* imaj pa depase 80% nan ekran */
+height: auto; /* kenbe pwopòsyon imaj la */
+border-radius: 10px; /* kwen imaj yo awondi */
+box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* ajoute ti lonbraj bèl */
+}
